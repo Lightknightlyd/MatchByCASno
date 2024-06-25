@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+
+	<script type="text/javascript">
+		
+
+
+		var isCheck = true
+
+		var which //声明了未赋值 undefined type
+
+		var whichobject = null // 复杂类型-对象类型
+
+		console.log(typeof isCheck); //结果是string类型的
+
+		// 数据类型转换 转成数值,不能转的 NaN, ture 转成1 false 0
+		var a = "100"
+		var b = Number(a)
+		console.log(typeof a, typeof b);
+
+		//转字符串
+		var a = 100
+		var b = String(a)
+
+		//转布尔
+
+		var a = 100
+		var b = Boolean(a)
+
+		// 数学运算符 + - * / %
+
+		var a = 1000 // 1000 分钟转换成 小时：分钟格式
+		var b = parseInt(a/60)
+		var c = a%60
+		console.log(b+":"+c);
+
+		// 比较运算 
+		// == 比较值 !=
+		// === 比较值和类型 !==
+		// > <  >=  <=
+		// 逻辑运算 && || !
+
+		// 自增自减 ++ --   购物车里数量左右加减
+
+		var a = 10
+		console.log(++a); // 11
+		console.log(a++); // 10
+
+		//三元运算符   满300减50
+
+		var sum = 320
+
+		var finalsum = sum >=300? sum-50 : sum
+
+		console.log(sum,finalsum);
+
+
+
+
+	</script>
+	
+
+
+
+</head>
+<body>
+	
+</body>
+</html>
