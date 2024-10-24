@@ -1,0 +1,132 @@
+---
+title: "Learn R With Me"
+author: "lyd"
+date: "2019/12/25"
+output:
+  tufte::tufte_html: default
+bibliography: skeleton.bib
+link-citations: yes
+---
+
+```{r setup, include=FALSE}
+library(tufte)
+# invalidate cache when the tufte version changes
+knitr::opts_chunk$set(tidy = FALSE, cache.extra = packageVersion('tufte'))
+options(htmltools.dir.version = FALSE)
+```
+
+[HomePage](http://yuedong.site)
+
+## Contents
+
+This page provides you the fundamental imformation of R. To get a full appreciation of how it works, I sincerely recommend you to build your own demo project.
+
+
+## 数据操作
+
++ [plyr](http://yuedong.site/learnR/datamanip/plyr.html)
++ [dplyr](http://yuedong.site/learnR/datamanip/dplyr.html)
++ [lubridate](http://yuedong.site/learnR/datamanip/howtodealdate.html)
++ [stringr](http://yuedong.site/learnR/datamanip/stringr.html)
+
+
+## 面向对象
+
++ [数据结构](http://yuedong.site/learnR/object/datatype.html)
++ [对象](http://yuedong.site/learnR/object/object_oriented.html)
++ [函数](http://yuedong.site/learnR/object/function.html)
++ [环境](http://yuedong.site/learnR/object/environment.html)
++ [调试和Rstudio](http://yuedong.site/learnR/object/debug.html)
+
+
+## 可视化篇
+
++ [散点图](http://yuedong.site/learnR/graphic/scatter.html)
++ [热图](http://yuedong.site/learnR/graphic/heatmap.html)
++ [相关矩阵](http://yuedong.site/learnR/graphic/correlation_matrix.html)
++ [气泡图](http://yuedong.site/learnR/graphic/bubble.html)
++ [点线图](http://yuedong.site/learnR/graphic/scatter_line.html)
++ [Density2D](http://yuedong.site/learnR/graphic/2Ddensity.html)
++ [密度图](http://yuedong.site/learnR/graphic/density.html)
++ [计数直方图](http://yuedong.site/learnR/graphic/Histogram.html)
++ [柱状图](http://yuedong.site/learnR/graphic/bar.html)
++ [累计柱状图](http://yuedong.site/learnR/graphic/stackedBar.html)
++ [线图](http://yuedong.site/learnR/graphic/line.html)
++ [时间序列图](http://yuedong.site/learnR/graphic/timeseries.html)
++ [网络关系图](http://yuedong.site/learnR/graphic/3Dnet.html)
++ [桑基图](http://yuedong.site/learnR/graphic/sankey.html)
++ [动画效果](http://yuedong.site/learnR/graphic/animate.html)
+
+
+## 常用包
+
++ [wordcloud2](http://yuedong.site/learnR/libraries/wordcloud2.html)
++ [leaflet](http://yuedong.site/learnR/libraries/leaflet.html)
++ [DBI_RMySQL](http://yuedong.site/learnR/libraries/rmysql.html)
+
+
+## 统计基础
+
++ [抽样](http://yuedong.site/learnR/statisticbasic/sampling.html)
++ [分布](http://yuedong.site/learnR/statisticbasic/distribution.html)
++ [正态性检验](http://yuedong.site/learnR/statisticbasic/normal_test.html)
++ [参数检验](http://yuedong.site/learnR/statisticbasic/parameter_test.html)
++ [非参数检验](http://yuedong.site/learnR/statisticbasic/nonparameter_test.html)
++ [方差分析](http://yuedong.site/learnR/statisticbasic/ANVOA.html)
+
+
+
+## 回归上篇
+
++ [统计基础](http://yuedong.site/learnR/regression/reg_basic.html)
++ [回归-估计](http://yuedong.site/learnR/regression/reg_est1.html)
++ [回归-推断](http://yuedong.site/learnR/regression/reg_dedu.html)
++ [OLS的渐进性](http://yuedong.site/learnR/regression/OLS_approch.html)
++ [回归-专题总结](http://yuedong.site/learnR/regression/reg_summary.html)
++ [虚拟变量](http://yuedong.site/learnR/regression/reg_dummy.html)
++ [异方差](http://yuedong.site/learnR/regression/reg_Heteroscedasticity.html)
+
+## 回归下篇
+
++ [非线性回归](http://yuedong.site/learnR/regression2/nonlinear_reg.html)
++ [二元选择模型](http://yuedong.site/learnR/regression2/binary_choice.html)
++ [多元选择模型](http://yuedong.site/learnR/regression2/multichoice.html)
++ [计数模型与受限因变量](http://yuedong.site/learnR/regression2/countmodel.html)
++ [分位数回归](http://yuedong.site/learnR/regression2/QR.html)
++ [面板-非观测效应](http://yuedong.site/learnR/regression2/QR.html)
++ [面板-多于两期-相关检验](http://yuedong.site/learnR/regression2/QR.html)
++ [面板-固定效应上](http://yuedong.site/learnR/regression2/QR.html)
++ [面板-固定效应下](http://yuedong.site/learnR/regression2/QR.html)
++ [工具变量-2SLS](http://yuedong.site/learnR/regression2/QR.html)
++ [联立方程模型](http://yuedong.site/learnR/regression2/QR.html)
++ [限值因变量模型和样本选择纠正](http://yuedong.site/learnR/regression2/QR.html)
+
+
+
+## 时间序列
+
++ [时序基础](http://yuedong.site/learnR/timeseries/ts_basic.html)
++ [分布滞后和倾向](http://yuedong.site/learnR/timeseries/dis_lag.html)
++ [DF检验](http://yuedong.site/learnR/timeseries/DF_test.html)
++ [格兰杰因果检验](http://yuedong.site/learnR/timeseries/Granger.html)
++ [协整检验-ADF检验](http://yuedong.site/learnR/timeseries/ADF_test.html)
++ [提前一期预报](http://yuedong.site/learnR/timeseries/ahead1.html)
+
++ [ARMA](http://yuedong.site/learnR/timeseries/ARMA.html)
++ [ARIMA](http://yuedong.site/learnR/timeseries/ARIMA.html)
++ [模型识别](http://yuedong.site/learnR/timeseries/mod_recog.html)
++ [参数估计](http://yuedong.site/learnR/timeseries/param_est.html)
++ [残差分析-模型诊断-信息准则](http://yuedong.site/learnR/timeseries/res_analyse.html)
++ [ARIMA预测区间](http://yuedong.site/learnR/timeseries/ARIMA_forecast.html)
++ [季节模型](http://yuedong.site/learnR/timeseries/seasonal.html)
+
++ [波动率模型-ARCH](http://yuedong.site/learnR/timeseries/ARCH.html)
++ [GARCH](http://yuedong.site/learnR/timeseries/GARCH.html)
++ [改进的GARCH](http://yuedong.site/learnR/timeseries/enhanced_garch.html)
++ [随机波动率](http://yuedong.site/learnR/timeseries/Stochastic_Volatility.html)
++ [多元时间序列](http://yuedong.site/learnR/timeseries/mult_var_time.html)
+
+
+## 性能分析
+
++ [性能分析](http://yuedong.site/learnR/efficiency/efficiency.html)

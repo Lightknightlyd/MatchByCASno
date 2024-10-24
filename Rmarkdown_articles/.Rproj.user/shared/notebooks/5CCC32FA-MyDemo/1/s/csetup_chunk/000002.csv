@@ -1,0 +1,33 @@
+"0","knitr::opts_chunk$set(echo = FALSE,warning = FALSE,message = FALSE)"
+"0",""
+"0","library(rmarkdown)"
+"2","程辑包‘rmarkdown’是用R版本3.6.1 来建造的"
+"2","Registered S3 methods overwritten by 'htmltools':
+  method               from         
+  print.html           tools:rstudio
+  print.shiny.tag      tools:rstudio
+  print.shiny.tag.list tools:rstudio
+"
+"0","library(haven)"
+"2","程辑包‘haven’是用R版本3.6.1 来建造的"
+"0","library(plyr)"
+"0","library(reshape2)"
+"0","library(ggplot2)"
+"2","Need help getting started? Try the R Graphics Cookbok: https://r-graphics.org
+"
+"0","library(stringr)"
+"0","library(hrbrthemes)"
+"2","程辑包‘hrbrthemes’是用R版本3.6.2 来建造的"
+"2","Registering Windows fonts with R
+"
+"2","NOTE: Either Arial Narrow or Roboto Condensed fonts are required to use these themes.
+"
+"2","      Please use hrbrthemes::import_roboto_condensed() to install Roboto Condensed and
+"
+"2","      if Arial Narrow is not on your system, please see http://bit.ly/arialnarrow
+"
+"0","## 鏂板浼佷笟"
+"0","essay_data<-read_dta(""essay_data.dta"")"
+"0","essay_data2<-essay_data[,c(1:24,33:38)]"
+"0","rm(essay_data)"
+"0",""

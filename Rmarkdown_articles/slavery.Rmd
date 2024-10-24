@@ -1,0 +1,60 @@
+---
+title: "奴隶 Slavery"
+author: "lyd"
+date: "2017/03/27"
+output:
+  tufte::tufte_html: default
+ctex: yes
+biblio-title: 参考文献
+bibliography: skeleton.bib
+link-citations: yes
+---
+
+```{r setup, include=FALSE}
+library(tufte)
+# invalidate cache when the tufte version changes
+knitr::opts_chunk$set(tidy = FALSE, cache.extra = packageVersion('tufte'))
+options(htmltools.dir.version = FALSE)
+```
+
+[Homepage](http://yuedong.site)
+
+
+[**文摘**](http://yuedong.site/humanity.html)/- [**康德文集**](http://yuedong.site/humanity/Myessay/kant.html)/- [**契约论-强权**](http://yuedong.site/humanity/Contrat/forcepower.html)/- [**杂文-贸易摩擦**](http://yuedong.site/humanity/Myessay/tradeconf.html)/- [**杂文-生活法则**](http://yuedong.site/humanity/Myessay/reflectionoflife.html)
+
+***
+
+# 奴隶 Slavery
+
+
+
+SINCE no man has a natural authority over his fellow,and force creates no right,we must conclude that conventions form the basis of all legitimate authority among men.
+
+既然没人能把自己权威加在他人头上，而且强权也不能创造合理性，那么我们就能得出结论：在人与人之间，约定的习俗才是合法权威的基础。
+
+If an individual,says Grotius,can alienate his liberty and make himself the slave of a master,why could not a whole people do the same and make itself subject to a king?
+
+如果一个人，比如说*Grotius*^[(Hugo Grotius，1583—1645)近代西方思想先驱，国际法学创始人，被人们同时尊称为“国际法之父”与“自然法之父”。]，他能让渡他的自由，使他自己成为一个人的奴隶，那么为什么全体人民不能做同样的事，接受一个君主的统治呢？
+
+There are in this passage plenty of ambiguous words which would need explaining; but let us confine ourselves to the word alienate.
+
+在这篇文章中有很多含糊不清的词语需要一个定义，我们先来定义“让渡”（*alienate*）这个词。
+
+To alienate is to give or to sell.Now,a man who becomes the slave of another does not give himself; he sells himself,at the least for his subsistence: but for what does a people sell itself? A king is so far from furnishing his subjects with their subsistence that he gets his own only from them; and,according to Rabelais,kings do not live on nothing.Do subjects then give their persons on condition that the king takes their goods also? I fail to see what they have left to preserve.
+
+让渡指给予或者卖出。现在，如果一个人变成另一个人的奴隶，他不是把自己给予了，而是卖出了自己，可能只是为了有条生计。但究竟是为了什么，一个人会把自己给卖掉呢？自古以来，一个国王总是把服从自己和获得生计联在一起，而国王他本身的生计却来源于民，而且，根据Rabelais说，国王是不需要依靠任何人的。所以君权就使得国王任意盘剥人民成了合法？我已经看不出这样的话人民还有什么可以自己保留的了。
+
+   
+
+It will be said that the despot assures his subjects civil tranquillity.Granted; but what do they gain,if the wars his ambition brings down upon them,his insatiable avidity,and the vexations conduct of his ministers press harder on them than their own dissensions would have done?What do they gain,if the very tranquillity they enjoy is one of their miseries?
+
+有人会讲，铁腕君主的君权让社会得到稳定，但是，如果国王的野心招来战乱，使得百姓流离，那么百姓何来的安稳呢?君主无尽的欲望和群臣对百姓的压迫，当这所谓的“安稳”成了百姓无尽的痛苦，百姓又能得到什么安稳呢？
+
+
+Tranquillity is found also in dungeons; but is that enough to make them desirable places to live in? The Greeks imprisoned in the cave of the Cyclops lived there very tranquilly,while they were awaiting their turn to be devoured.
+To say that a man gives himself gratuitously,is to say what is absurd and inconceivable; such an act is null and illegitimate,from the mere fact that he who does it is out of his mind.To say the same of a whole people is to suppose a people of madmen; and madness creates no right.
+
+地牢里也能找到安稳，但安稳就能使地牢成为令人向往的地方？住在独眼兽洞穴的古希腊人自我感觉很安稳，因为他们知道自己被吃掉是命中注定的。说一个人自愿献身，那是荒唐可笑的这种行文是愚蠢且不合法的，因为会做出这种决定的人一定是疯了。如果是全体人民，也是这样，所以，愚蠢是不能产生合理性的。
+
+
+（刘越冬 译）

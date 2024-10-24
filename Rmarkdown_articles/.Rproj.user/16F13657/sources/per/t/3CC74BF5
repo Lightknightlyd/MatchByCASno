@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1592548615420.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2659309188",
+    "id" : "3CC74BF5",
+    "lastKnownWriteTime" : 1592551841,
+    "last_content_update" : 1592551841696,
+    "path" : "D:/github/collection-of-usefull-code/R/Rmarkdown_articles/learnR.Rmd",
+    "project_path" : "learnR.Rmd",
+    "properties" : {
+        "cursorPosition" : "76,0",
+        "scrollLine" : "52",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

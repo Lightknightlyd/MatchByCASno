@@ -87,7 +87,24 @@ crontab [-u username]
 crontab -e
 */5 * * * * /home/dmtsai/test.sh
 
+# yuedong
+*/3 * * * * /home/yuedong/Cls_crawler/Cls_crawle.sh >> /home/yuedong/Cls_crawle.log
+*/60 * * * * /home/yuedong/Cls_crawler/duplicate.sh >> /home/yuedong/duplicate.log
+59 23 * * * /home/yuedong/Cls_crawler/final.sh >> /home/yuedong/final.log
+# root
 
+4 0 * * * "/root/.acme.sh"/acme.sh --cron --home "/root/.acme.sh" > /dev/null
+0 3 * * * /sbin/reboot
+
+
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name  command to be executed
 
 
 #第一步：在linux上编写一个.sh脚本（test.sh）

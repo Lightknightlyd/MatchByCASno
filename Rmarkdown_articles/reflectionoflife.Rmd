@@ -1,0 +1,52 @@
+---
+title: "Reflection of Life"
+author: "lyd"
+date: "2018/03/26"
+output:
+  tufte::tufte_html: default
+ctex: yes
+biblio-title: 参考文献
+bibliography: skeleton.bib
+link-citations: yes
+---
+
+```{r setup, include=FALSE}
+library(tufte)
+# invalidate cache when the tufte version changes
+knitr::opts_chunk$set(tidy = FALSE, cache.extra = packageVersion('tufte'))
+options(htmltools.dir.version = FALSE)
+```
+
+
+[Homepage](http://yuedong.site)
+
+[**文摘**](http://yuedong.site/humanity.html)/- [**康德文集**](http://yuedong.site/humanity/Myessay/kant.html)/- [**契约论-强权**](http://yuedong.site/humanity/Contrat/forcepower.html)/- [**契约论-奴隶**](http://yuedong.site/humanity/Contrat/slavery.html)/- [**杂文-贸易摩擦**](http://yuedong.site/humanity/Myessay/tradeconf.html)
+
+***
+
+# 如何生活：对利己主义和普世价值的思考
+
+> “古希腊人无论多么睿智，却也离不开奴隶制。”
+>
+> `r tufte::quote_footer('--- Saul Bellow')`
+
+
+20岁以来，我不停的告诫自己：要有独立的人格！要有自己的想法！然而我发现，在这段迷茫又无知的岁月中，当来自四面八方的声音讲述一个又一个发人深省的故事时，反躬自省，我不知该顺着那个方向行走。生活总要继续，应该遵守普世存在的生活准则，抑或个人的生活准则只是其个人生活的片面总结？倘若存在普世的生活准测，那么是什么呢？另一方面，如果不存在普世的生活准则，那么什么样的生活是值得追求的呢？
+
+
+在写这篇文章时，我正喝着龙井，吃着夜宵，学生时代懒散的生活总能消磨志气。
+
+
+我想当冉阿让站在面包店门口犹豫时，他不会去思考生活准则；当千里之外某个牧羊人怀抱新生的婴儿时，他不会去思考生活准则，因为他们都能预期到将来的生活是什么样的。相反，当人不能预期自己命运时，便去思考生活应是什么样的。或许，对于一个人最痛苦的事就是不知道自己人生的目的地。我想斯宾诺莎在林中磨镜片时，他知道自己想要什么；梭罗在湖上划木筏时，知道自己想要什么，这类人的生理、安全、情感和尊重的需求如此之低，使人感到困惑：难道每个人的需求水平是有区别的？我想是这类人心中有这么一个目标，一个信念，一个理想，而恰巧这目标，这信念，这理想处于自我实现或更高需求上。不过不论需求层次是高是低，高层次的需求一定建立在低层次需求满足的基础上。
+
+
+个人的需求确实可高可低，但人若处在社会中，便要接受社会强加给他的。倘若社会中拜金主义风行，那么对生理、安全的需求的平均水平便高一点；倘若社会中对阶级观念比较重视，那么尊重需求的平均水平就高一点，譬如美国商人寻求一个英国贵族女性作为配偶。那么倘若社会对一个人的自我实现比较重视呢？
+
+
+简言之，实现财务自由确实是追求更高人生目标的前提，社会也会对一个人在财产上的需求高低产生影响，但人仍可自己做出选择，或者成为社会的一员，或者仅仅满足最低的需求而去追求更高需求。
+
+
+**不要被他人的价值观左右，也请不要左右他人的价值观**
+
+
+

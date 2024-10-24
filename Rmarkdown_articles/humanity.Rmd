@@ -1,0 +1,176 @@
+---
+title: "We Read, We Learn"
+author: "lyd"
+date: "2019/10/25"
+output:
+  tufte::tufte_html: default
+bibliography: skeleton.bib
+link-citations: yes
+---
+
+```{r setup, include=FALSE}
+library(tufte)
+# invalidate cache when the tufte version changes
+knitr::opts_chunk$set(tidy = FALSE, cache.extra = packageVersion('tufte'))
+options(htmltools.dir.version = FALSE)
+```
+
+[HomePage](http://yuedong.site)
+
+[**康德文集**](http://yuedong.site/humanity/Myessay/kant.html)/- [**契约论-强权**](http://yuedong.site/humanity/Contrat/forcepower.html)/- [**契约论-奴隶**](http://yuedong.site/humanity/Contrat/slavery.html)/- [**杂文-贸易摩擦**](http://yuedong.site/humanity/Myessay/tradeconf.html)/- [**杂文-生活法则**](http://yuedong.site/humanity/Myessay/reflectionoflife.html)
+
+***
+
+`r margin_note("本篇摘自詹姆斯·乔伊斯短篇小说集《都柏林人》第四篇。")`
+
+# 伊芙琳
+
+
+詹姆斯·乔伊斯^[James Joyce,1882-1941，爱尔兰作家、诗人。]
+
+
+SHE sat at the window watching the evening invade the avenue. Her head was leaned against the window curtains and in her nostrils was the odour of dusty cretonne. She was tired.
+
+她坐在窗边注视着黑夜正侵蚀着林荫小路。她的头倚在窗帘上，印花棉布的尘埃味道被吸进鼻腔。她累了。
+
+Few people passed. The man out of the last house passed on his way home; she heard his footsteps clacking along the concrete pavement and afterwards crunching on the cinder path before the new red houses. One time there used to be a field there in which they used to play every evening with other people’s children. Then a man from Belfast bought the field and built houses in it—not like their little brown houses but bright brick houses with shining roofs. The children of the avenue used to play together in that field —the Devines, the Waters, the Dunns, little Keogh the cripple, she and her brothers and sisters. Ernest, however, never played: he was too grown up. Her father used often to hunt them in out of the field with his blackthorn stick; but usually little Keogh used to keep nix and call out when he saw her father coming. Still they seemed to have been rather happy then. Her father was not so bad then; and besides, her mother was alive. That was a long time ago; she and her brothers and sisters were all grown up her mother was dead. Tizzie Dunn was dead, too, and the Waters had gone back to England. Everything changes. Now she was going to go away like the others, to leave her home.
+
+人烟稀少。最后面一间房屋里出来的一位先生没有回家去，她听到他的脚步声在这红色新房子前响起，时而在人行道上"嗒嗒嗒    "，时而在煤渣路上"沙沙沙    "    。
+曾几何时，这是一片可供人们和孩子们玩耍的小天地。但后来一个从贝尔福斯特来的人买走了这块地，并建起了房子——不是平常的那种小灰色房子，而是房顶铺满闪闪瓦片的房子。孩子们曾经在这块空地上玩耍，戴文斯、沃特斯、达恩还有瘸腿的基奥盖娅和她的哥哥姐姐们。而内斯特，他从不玩耍，因为他已经年龄很大了。基奥盖娅的父亲总是拿着一根李树枝    "惩罚"这些熊孩子，但基奥盖娅总能在看到父亲来的时候提醒大家快跑。他们的那段时光还是挺快乐的。她的父亲还没变得那么糟糕，而且母亲也尚在人世。现在，距离母亲过世和兄弟姐妹们长大成人，已经过去很长一段时间了。达恩也去世了，沃尔特回到了英格兰。沧海桑田。现在她也要离开这片小天地，像其他人一样。
+
+Home! She looked round the room, reviewing all its familiar objects which she had dusted once a week for so many years, wondering where on earth all the dust came from. Perhaps she would never see again those familiar objects from which she had never dreamed of being divided. And yet during all those years she had never found out the name of the priest whose yellowing photograph hung on the wall above the broken harmonium beside the coloured print of the promises made to Blessed Margaret Mary Alacoque. He had been a school friend of her father. Whenever he showed the photograph to a visitor her father used to pass it with a casual word:
+
+家啊！她环视着周围，看着这些曾经多年来一星期掸一次尘的物件，心想这些灰尘究竟是哪里来的呢。或许她再也见不到这些曾经从未想过会分别的物件。
+而且在那段时光中她从没了解过那破旧手风琴上方墙面上挂着的泛黄的照片里牧师的名字，照片旁边则是彩印的圣母玛利亚的祝福语。
+这位牧师曾是她父亲的校园好友，不论何时当她父亲向拜访者展示这照片时，他总漫不经心的说：
+
+‘He is in Melbourne now.’
+
+"他现在在墨尔本。"
+
+She had consented to go away, to leave her home. Was that wise? She tried to weigh each side of the question. In her home anyway she had shelter and food; she had those whom she had known all her life about her. O course she had to work hard, both in the house and at business. What would they say of her in the Stores when they found out that she had run away with a fellow? Say she was a fool, perhaps; and her place would be filled up by advertisement. Miss Gavan would be glad. She had always had an edge on her, especially whenever there were people listening.
+
+她已经决定离开了，离开她的家。这样明智吗？她思索着如果呆在家里的话，那么就不愁吃住，她也有一群认识了她一辈子的伙伴们陪伴，当然她也要在家和商铺里努力工作。如果她和那个小伙子私奔了，那么商铺里的那些熟人们又会怎么评价她呢？她真是蠢，或许她的住所会被贴满广告，当然葛芳小姐则会很高兴的，她总是对她心怀不满，喜欢嚼舌根。
+
+‘Miss Hill, don’t you see these ladies are waiting?’
+
+"赫尔小姐，难道你没看到这些女士都在等你吗？"
+
+‘Look lively, Miss Hill, please.’
+
+"没长眼睛吗?小心点！赫尔小姐！"
+
+She would not cry many tears at leaving the Stores.
+
+她不会为离开这家商铺流太多眼泪的。
+
+But in her new home, in a distant unknown country, it would not be like that. Then she would be married—she,Eveline. People would treat her with respect then. She would not be treated as her mother had been. Even now, though she was over nineteen, she sometimes felt herself in danger of her father’s violence. She knew it was that that had given her the palpitations. When they were growing up he had never gone for her like he used to go for Harry and Ernest, because she was a girl but latterly he had begun to threaten her and say what he would do to her only for her dead mother’s sake. And no she had nobody to protect her. Ernest was dead and Harry, who was in the church decorating business, was nearly always down somewhere in the country. Besides, the invariable squabble for money on Saturday nights had begun to weary her unspeakably. She always gave her entire wages—seven shillings—and Harry always sent up what he could but the trouble was to get any money from her father. He said she used to squander the money, that she had no head, that he wasn’t going to give her his hard-earned money to throw about the streets, and much more, for he was usually fairly bad on Saturday night. In the end he would give her the money and ask her had she any intention of buying Sunday’s dinner. Then she had to rush out as quickly as she could and do her marketing, holding her black leather purse tightly in her hand as she elbowed her way through the crowds and returning home late under her load of provisions. She had hard work to keep the house together and to see that the two young children who had been left to hr charge went to school regularly and got their meals regularly. It was hard work—a hard life—but now that she was about to leave it she did not find it a wholly undesirable life.
+
+但若是到了新家，一个遥远的国度，那就不一样了，接下来她——伊芙琳，会和人结婚，人们则会尊重的待她，而不是像对她的母亲那样。即使是现在，她已经过了十九岁，还是会感到自己仍处于父亲的家暴下，她知道这是她总感到心悸的原因。在他们几个兄妹成长的过程中，一开始她父亲没有像对哈利和而厄斯特那样对她家暴，因为她只是个小女孩，但后来父亲开始威胁她，还说这一切都是看在她已经去世的母亲的面子上。现在，没人能保护她了，厄内斯特去世了，哈利得到一份装修教堂的工作，常常出差。而且，每周六晚上为了钱无休止的争吵已经悄然拖累了她的身心。女老板总是付足她工钱    ——七先令——而且哈利也常常能寄什么就寄回来什么，但问题在于怎么从父亲那里要到钱。他说她曾经挥金如土，没头没脑浪费他的血汗钱，他给她钱不是让她随便扔在大街上的，等等，因为在周六晚上他心情总是特别糟糕。最后他总归是拿出了钱并叮嘱她去买礼拜日的晚餐。于是她就拎着她的黑皮包匆匆奔向市场，然后低着头在人群中穿梭，最终满载而归。她必须努力工作才能维持这个家并且供两个托付给她的孩子上学。这样的工作很艰辛，这样的生活很艰辛，但现在她就要告别这令人厌烦的生活了。
+
+She was about to explore another life with Frank. Frank was very kind, manly, open-hearted. She was to go away with him by the night-boat to be his wife and to live with him in Buenos Ayres where he had a home waiting for her. How well she remembered the first time she had seen him; he was lodging in a house on the main road where she used to visit. It seemed a few weeks ago. He was standing at the gate, his peaked cap pushed back on his head and his hair tumbled forward over a face of bronze. Then they had come to know each other. He used to meet her outside the Stores every evening and see her home. He took her to see The Bohemian Girl and she felt elated as she sat in an unaccustomed part of the theatre with him. He was awfully fond of music and sang a little. People knew that they were courting and, when he sang about the lass that loves a sailor, she always felt pleasantly confused. He used to call her Poppens out of fun. First of all it had been an excitement for her to have a fellow and then she had begun to like him.
+
+
+她将要和弗兰克一起去探索新的生活。弗兰克是个心地善良、有男子气概、开朗的人。她将搭乘午夜的小船去布宜诺斯艾利斯并成为他的妻子，在那里有个新家在等着她。她对第一次见到他的情形记忆犹新，她曾到她住宿的那条街道拜访过他一次。就像几个星期前一样。他那时正站在门口，鸭舌帽倒扣在头上，额前的头发散在棕黄的脸前。就这样他们互相认识了。他总是在她工作的商铺门口等她然后送她回家。他带她去看电影《波西米亚的女孩》，当跟他坐在电影院角落的座位上时，她也感到很开心。他痴迷于音乐，偶尔也会唱一两首。人们都看出来他们在谈恋爱，当他唱到那首爱上水手的姑娘时，她总是感到心满意足。他则总是唤她叫做乐开了花的小宝贝。一开始她只是觉得有这么伙伴挺开心的，但慢慢地她喜欢上他了。
+
+
+He had tales of distant countries. He had started as a deck boy at a pound a month on a ship of the Allan Line going out to Canada. He told her the names of the ships he had been on and the names of the different services. 
+
+他能讲各种异域趣事。他一开始是在一艘往返于阿伦和加拿大的船上当杂工的，一个月收入一英镑。他给她讲述那些他曾坐过的船的名字，船上的各种趣事。
+
+
+
+He had sailed through the Straits of Magellan and he told her stories of the terrible Patagonians. He had fallen on his feet in Buenos Ayres, he said, and had come over to the old country just for a holiday. Of course, her father had found out the affair and had forbidden her to have anything to say to him.
+
+他曾坐船驶过麦哲伦海峡，讲着那些巴塔哥尼亚人的恐怖故事。他说他曾流连于布宜诺斯艾利斯，而且曾为了度假去探索那些古老的国度。当然了，她父亲已经发现这段地下恋情，并且禁止她再次和他见面。
+
+
+
+‘I know these sailor chaps,’ he said.
+
+"我知道这些水手都是些什么货色！"他说。
+
+One day he had quarrelled with Frank and after that she had to meet her lover secretly.
+
+有一天他和弗兰克吵了一架，之后，她就只能悄悄地和情人幽会了。
+
+
+The evening deepened in the avenue. The white of two letters in her lap grew indistinct. One was to Harry; the other was to her father. Ernest had been her favourite but she liked Harry too. Her father was becoming old lately, she noticed; he would miss her. Sometimes he could be very nice. Not long before, when she had been laid up for a day, he had read her out a ghost story and made toast for her at the fire. Another day, when their mother was alive, they had all gone for a picnic to the Hill of Howth. She remembered her father putting on her mothers bonnet to make the children laugh.
+
+夜色使林荫道路显得深沉，她包里的两封白色信件格外显眼。一封是寄给哈利的，另一封是给她父亲的。她喜欢厄内斯特，也很喜欢哈利。她注意到了父亲最近显得有些衰老。父亲会思念她的，其实有时他是很和蔼的。小时候，当她闷在房间里整天不开心时，他就给她讲鬼故事吓她出来，然后在火炉旁给她烤吐司吃。那时她母亲尚在，他们全家会到霍斯山脚野餐。她还记得她父亲把一顶儿童帽套在母亲头上，引的孩子们大笑。
+
+
+Her time was running out but she continued to sit by the window, leaning her head against the window curtain, inhaling the odour of dusty cretonne. Down far in the avenue she could hear a street organ playing. She knew the air Strange that it should come that very night to remind her of the promise to her mother, her promise to keep the home together as long as she could. She remembered the last night of her mother’s illness; she was again in the close dark room at the other side of the hall and outside she heard a melancholy air of Italy. The organ-player had been ordered to go away and given sixpence. She remembered her father strutting back into the sickroom saying:
+
+时间一分一秒地过去，而她仍坐在窗边，把她的头倚在窗帘上，闻着印花窗帘的尘土味。街道不远处传来声响，她熟悉这怪异的空气，不时提醒她曾对母亲许下的诺言：尽一切努力维持这个家。她记得母亲弥留之际，她又躲进那间小黑屋，屋外弥漫着忧郁的气息。一个意大利风琴师在弹奏悲伤的曲子，父亲给了他六便士打发他走。她还记得父亲趾高气昂地走回病房说：
+
+
+
+‘Damned Italians! coming over here!’
+
+"该死的意大利人！到这儿来！"
+
+
+
+As she mused the pitiful vision of her mother’s life laid its spell on the very quick of her being—that life of commonplace sacrifices closing in final craziness. She trembled as she heard again her mother’s voice saying constantly with foolish insistence:
+
+当她思索着这伤感的情形，意识到母亲的生命像被附了咒语一样如此的短暂——平凡的生命泯灭在最后的疯狂中。她感到一阵焦虑，当她又一次听到母亲用愚蠢又执着的语气不停说：
+
+
+‘Derevaun Seraun! Derevaun Seraun!’
+
+"德里森·瑟朗！德里森·瑟朗！"
+
+She stood up in a sudden impulse of terror. Escape! She must escape! Frank would save her. He would give her life, perhaps love, too. But she wanted to live. Why should she be unhappy? She had a right to happiness. Frank would take her in his arms, fold her in his arms. He would save her.
+
+
+她猛然从恐惧中站起，逃跑！她必须逃跑。弗兰克会拯救她，给她新的生活，或许也能给她爱。她只是想真正地生活一次，凭什么她要遭受这些不开心的事情？她有权得到幸福。弗兰克会把她搂入怀中，他会拯救她。
+
+She stood among the swaying crowd in the station at the North Wall. He held her hand and she knew that he was speaking to her, saying something about the passage over and over again. The station was full of soldiers with brown baggages. Through the wide doors of the sheds she caught a glimpse of the black mass of the boat, lying in beside the quay wall, with illumined portholes. She answered nothing. She felt her cheek pale and cold and, out of a maze of distress, she prayed to God to direct her, to show her what was her duty.
+
+她站在北墙车站拥挤的人群中，他牵着她的手，她知道他正在跟她讲话，一遍一遍地谈论着这些乘客。车站里站满了背着棕色背包地士兵。透过棚屋宽敞地大门，她瞥见了黑色大船的一部分，紧挨着码头的墙，亮光从密布的舷窗透出来。她不知道该回答他什么。她感到脸颊上一丝苍凉，感到心中一丝悲伤。她向上帝祈祷，希望得到指引，从而发现自己的责任。
+
+
+The boat blew a long mournful whistle into the mist. If she went, tomorrow she would be on the sea with Frank, steaming towards Buenos Ayres. Their passage had been booked. Could she still draw back after all he had done for her? Her distress awoke a nausea in her body and she kept moving her lips in silent fervent prayer.
+
+船向远方迷雾发出一阵哀伤的鸣笛。如果她上去，那么明天，她就跟着弗兰克驶向布宜诺斯艾利斯了。他们的行李已经被登记。在他为她做了那么多后，她还能抽身吗？她的悲痛使身体感到一丝恶心，她的嘴仍在默默祈祷。
+
+
+A bell clanged upon her heart. She felt him seize her hand:
+
+一阵铃声改变了她的心思。她感到他抓住了她的手：
+
+‘Come!’
+
+ "快来！"
+
+All the seas of the world tumbled about her heart. He was drawing her into them: he would drown her. She gripped with both hands at the iron railing.
+
+她的内心阵阵澎湃，他正在将她没入水中，他将会淹死她，她双手紧紧抓住栏杆。
+
+‘Come!’
+
+ "快来！"
+
+
+No! No! No! It was impossible. Her hands clutched the iron in frenzy. Amid the seas she sent a cry of anguish.
+
+不不不！这是不可能的，她发疯一样抓住栏杆，茫茫大海中，她痛心地哭了出来。
+
+‘Eveline! Evvy!’
+
+"伊芙琳！伊···"
+
+He rushed beyond the barrier and called to her to follow. He was shouted at to go on but he still called to her.
+
+他冲到栅栏外则喊她快跟上，而人们叫他赶紧上船不要挡路，但他仍在呼叫她。
+
+
+She set her white face to him, passive, like a helpless animal. Her eyes gave him no sign of love or farewell or recognition.
+
+她将苍白的脸转向他，冷漠地，像一只无助地小动物。她的眼中没有显出一丝对他的爱意、永别或认可。
+
+
+
+(译：刘越冬)
+
